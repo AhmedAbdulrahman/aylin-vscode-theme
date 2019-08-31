@@ -1,0 +1,16 @@
+### OSX template
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+*.cache
+*.pyc
+
+.vscode/**
+.vscode-test/**
+vsc-extension-quickstart.md
+
+/node_modules

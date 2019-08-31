@@ -1,0 +1,29 @@
+{
+    "name": "aylin",
+    "displayName": "Aylin",
+    "description": "Aylin is a modern and minimal VS Code dark theme with bright colors.",
+    "version": "1.0.0",
+    "publisher": "Ahmed Abdulrahman",
+    "license": "MIT",
+    "engines": {
+        "vscode": "^1.37.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+		"icon-theme",
+		"theme",
+		"react",
+		"jsx"
+	],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Aylin",
+                "uiTheme": "vs-dark",
+                "path": "./themes/aylin.json"
+            }
+        ]
+    }
+}
