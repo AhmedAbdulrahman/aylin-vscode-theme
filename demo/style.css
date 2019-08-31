@@ -1,0 +1,14 @@
+.card-1 {
+    width: 300px;
+    height: 200px;
+    background: yellow;
+    border: red 2px solid;
+    padding: 20px;
+ }
+ .card-2 {
+    width: 400px;
+    height: 300px;
+    background: lightblue;
+    border: black 1px dotted;
+    padding: 20px;
+}

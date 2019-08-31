@@ -1,0 +1,12 @@
+@mixin card($width, $height, $bg, $border) {
+    width: $width;
+    height: $height;
+    background: $bg;
+    border: $border;
+}
+.card-1 {
+    @include card(300px, 200px, yellow, red 2px solid);
+}
+.card-2 {
+    @include card(400px, 300px, lightblue, black 1px dotted);
+}
