@@ -9,6 +9,3 @@ def timer
     sleep(15)
     puts "I'm done :)"
   end
-  # => I'm doing somethings slow...
-  # => I'm done :)
-  # => Elapsed time: 4s
