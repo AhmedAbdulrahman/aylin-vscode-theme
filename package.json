@@ -8,6 +8,7 @@
     "engines": {
         "vscode": "^1.37.0"
     },
+    "icon": "https://raw.githubusercontent.com/AhmedAbdulrahman/aylin-vscode-theme/master/icon.png",
     "categories": [
         "Themes"
     ],
