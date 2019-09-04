@@ -1,30 +1,43 @@
 {
-    "name": "aylin",
-    "displayName": "Aylin",
-    "description": "Aylin is a modern and minimal VS Code dark theme with bright colors.",
-    "version": "1.0.0",
-    "publisher": "AhmedAbdulrahman",
-    "license": "MIT",
-    "engines": {
-        "vscode": "^1.37.0"
-    },
-    "icon": "https://raw.githubusercontent.com/AhmedAbdulrahman/aylin-vscode-theme/master/icon.png",
-    "categories": [
-        "Themes"
-    ],
-    "keywords": [
-		"icon-theme",
-		"theme",
-		"react",
-		"jsx"
-	],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Aylin",
-                "uiTheme": "vs-dark",
-                "path": "./themes/aylin.json"
-            }
-        ]
-    }
+  "name": "aylin",
+  "displayName": "Aylin",
+  "description": "Aylin is a modern and minimal VS Code dark theme with bright colors.",
+  "version": "1.0.0",
+  "publisher": "AhmedAbdulrahman",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.37.0"
+  },
+  "icon": "https://raw.githubusercontent.com/AhmedAbdulrahman/aylin-vscode-theme/master/icon.png",
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "icon-theme",
+    "theme",
+    "react",
+    "jsx"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Aylin",
+        "uiTheme": "vs-dark",
+        "path": "./themes/aylin.json"
+      }
+    ]
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AhmedAbdulrahman/aylin-vscode-theme.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/AhmedAbdulrahman/aylin-vscode-theme/issues"
+  },
+  "homepage": "https://github.com/AhmedAbdulrahman/aylin-vscode-theme#readme"
 }
