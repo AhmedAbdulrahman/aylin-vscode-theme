@@ -55,6 +55,9 @@ Aylin is a modern and minimal VS Code dark theme with bright colors. The theme i
 6.  Click **Reload** to reload the Code
 7.  From the menu bar click: Code > Preferences > Color Theme > **Aylin**
 
+## Credits
+Credit goes to the [Ayu theme](https://github.com/ayu-theme/vscode-ayu). I ended up changing colors and their mappings.
+
 ## Recommended Plugins and settings
 
 ### Plugins
@@ -63,3 +66,6 @@ Aylin is a modern and minimal VS Code dark theme with bright colors. The theme i
 - [IBM Plex Mono](https://github.com/IBM/plex) (by [IBM](https://github.com/IBM)).
 - [Color Highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight) (by [Sergii Naumov](https://github.com/sergiirocks)).
 - [Colorize](https://marketplace.visualstudio.com/items?itemName=kamikillerto.vscode-colorize) (by [Kamikillerto](https://github.com/KamiKillertO)).
+
+## License
+MIT
