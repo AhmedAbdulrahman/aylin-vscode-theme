@@ -3,7 +3,7 @@
     "displayName": "Aylin",
     "description": "Aylin is a modern and minimal VS Code dark theme with bright colors.",
     "version": "1.0.0",
-    "publisher": "Ahmed Abdulrahman",
+    "publisher": "AhmedAbdulrahman",
     "license": "MIT",
     "engines": {
         "vscode": "^1.37.0"
