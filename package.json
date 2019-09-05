@@ -5,7 +5,7 @@
   "version": "1.1.0",
   "publisher": "AhmedAbdulrahman",
   "preview": true,
-  "license": "MIT",
+  "license": "SEE LICENSE IN LICENSE",
   "engines": {
     "vscode": "^1.37.0"
   },
@@ -21,7 +21,9 @@
     "icon-theme",
     "theme",
     "react",
-    "jsx"
+    "jsx",
+    "aylin",
+    "dark"
   ],
   "contributes": {
     "themes": [
@@ -32,15 +34,10 @@
       }
     ]
   },
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AhmedAbdulrahman/aylin-vscode-theme.git"
+    "url": "https://github.com/AhmedAbdulrahman/aylin-vscode-theme.git"
   },
-  "author": "",
   "bugs": {
     "url": "https://github.com/AhmedAbdulrahman/aylin-vscode-theme/issues"
   },
