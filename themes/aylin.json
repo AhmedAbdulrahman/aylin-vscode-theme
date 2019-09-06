@@ -45,8 +45,9 @@
 		"list.inactiveSelectionForeground": "#707a8c",
 		"list.invalidItemForeground": "#586070",
 		"activityBar.background": "#1a1e27",
-		"activityBar.foreground": "#707a8ccc",
+		"activityBar.foreground": "#ffa7c4",
 		"activityBar.border": "#191e2a",
+		"activityBar.inactiveForeground": "#707a8ccc",
 		"activityBarBadge.background": "#ffa7c4",
 		"activityBarBadge.foreground": "#1f2430",
 		"sideBar.background": "#1a1e27",
@@ -132,7 +133,7 @@
 		"panelTitle.activeBorder": "#ffa7c4",
 		"panelTitle.activeForeground": "#cbccc6",
 		"panelTitle.inactiveForeground": "#707a8c",
-		"statusBar.background": "#1a1e27",//"#1f2430",
+		"statusBar.background": "#1a1e27",
 		"statusBar.foreground": "#707a8c",
 		"statusBar.border": "#191e2a",
 		"statusBar.debuggingBackground": "#f29e74",
@@ -142,7 +143,7 @@
 		"statusBarItem.hoverBackground": "#00000030",
 		"statusBarItem.prominentBackground": "#191e2a",
 		"statusBarItem.prominentHoverBackground": "#00000030",
-		"titleBar.activeBackground": "#1a1e27",//"#1f2430",
+		"titleBar.activeBackground": "#1a1e27",
 		"titleBar.activeForeground": "#cbccc6",
 		"titleBar.inactiveBackground": "#1f2430",
 		"titleBar.inactiveForeground": "#707a8c",
@@ -154,11 +155,11 @@
 		"pickerGroup.foreground": "#484f5e",
 		"debugToolBar.background": "#232834",
 		"walkThrough.embeddedEditorBackground": "#232834",
-		"gitDecoration.modifiedResourceForeground": "#77a8d9b3",
+		"gitDecoration.modifiedResourceForeground": "#a2bffc",
 		"gitDecoration.deletedResourceForeground": "#f27983b3",
-		"gitDecoration.untrackedResourceForeground": "#a6cc70b3",
+		"gitDecoration.untrackedResourceForeground": "#bae67e",
 		"gitDecoration.ignoredResourceForeground": "#484f5e",
-		"gitDecoration.conflictingResourceForeground": "",
+		"gitDecoration.conflictingResourceForeground": "#ffeb95cc",
 		"gitDecoration.submoduleResourceForeground": "#d4bfffb3",
 		"settings.headerForeground": "#cbccc6",
 		"settings.modifiedItemIndicator": "#77a8d9",
@@ -397,7 +398,7 @@
 				"entity.name.function"
 			],
 			"settings": {
-				"foreground": "#7fdbca" //"#80c4e6"
+				"foreground": "#7fdbca"
 			}
 		},
 		{
@@ -679,16 +680,6 @@
 				"fontStyle": ""
 			}
 		},
-		// {
-		// 	"name": "Tag",
-		// 	"scope": [
-		// 		"entity.name.tag",
-		// 		"meta.tag.sgml"
-		// 	],
-		// 	"settings": {
-		// 		"foreground": "#ffa7c4"
-		// 	}
-		// },
 		{
 			"name": "Tag Punctuation Definition start/end",
 			"scope": [
