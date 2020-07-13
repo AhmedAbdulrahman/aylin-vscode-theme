@@ -1,29 +1,31 @@
-import React from 'react';
+import * as React from 'react'
+import PropTypes from 'prop-types'
+import classnames from 'clsx'
 
-export default class Counter extends React.Component {
-  state = {
-    count: 0
-  };
+const SlideshowSlide = React.forwardRef(function SlideshowSlide(props, ref) {
+  const { children, className, component: Component = 'div', ...other } = props
 
-  increment = () => {
-    this.setState({
-      count: (this.state.count + 1)
-    });
-  };
+  const [count, setCount ] = React.useState(0);
 
-  decrement = () => {
-    this.setState({
-      count: (this.state.count - 1)
-    });
-  };
-
-  render () {
-    return (
-      <div>
-        <h1>{this.state.count}</h1>
-        <button onClick={this.increment}>Increment</button>
-        <button onClick={this.decrement}>Decrement</button>
-      </div>
-    );
+  const handleOnClick = () => {
+    setCount(count => count + 1)
   }
+
+  return (
+    <Component className={classnames('swiper-slide', className)} ref={ref} {...other}>
+      {children}
+      {count}
+      <button onClick={handleOnClick}>++</button>
+    </Component>
+  )
+})
+
+SlideshowSlide.propTypes = {
+  children: PropTypes.node.isRequired,
+  className: PropTypes.string,
+  component: PropTypes.elementType,
 }
+
+SlideshowSlide.uiName = 'SlideshowSlide'
+
+export default SlideshowSlide
