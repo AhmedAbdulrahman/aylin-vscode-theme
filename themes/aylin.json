@@ -1123,7 +1123,7 @@
 		{
 			"name": "Markup Bold",
 			"scope": [
-				"markup.bold.mark"
+				"markup.bold"
 			],
 			"settings": {
 				"fontStyle": "bold",
