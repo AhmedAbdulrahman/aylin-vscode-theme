@@ -1,14 +1,13 @@
-.mtk6 {
-    color: #f92aad;
-    text-shadow: 0 0 2px #100c0f, 0 0 5px #dc078e33, 0 0 10px #fff3;
+.mtk4 {
+    text-shadow: 0 0 10px #00ff3099, 0 0 22px #00ff3560, 0 0 2px black;
 }
 
 .mtk3 {
     color: #6d77b3;
 }
 
-.mtk4 {
-    color: #f97e72;
+.mtk6 {
+    text-shadow: 0 0 2px #100c0f, 0 0 5px #00ffbe99, 0 0 10px #fff3;
 }
 
 .mtk10 {
